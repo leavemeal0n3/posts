@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function Posts({ title, city, price, imgURl, description, date }) {
   return (
@@ -7,6 +8,7 @@ function Posts({ title, city, price, imgURl, description, date }) {
         <img
           className="rounded-l-xl h-full w-9/12 min-w-3/4 max-w-9/12"
           src={imgURl}
+          alt="post-image"
         ></img>
       </div>
       <div className="p-8 flex flex-col space-y-5">

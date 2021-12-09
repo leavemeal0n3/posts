@@ -20,7 +20,7 @@ const MainPage = () => {
         setPosts(res.data.posts);
         console.log(posts);
       });
-  }, []);
+  }, [posts]);
   return (
     <div className="container px-20 py-10 space-y-5">
       <p className="text-4xl">Krisha Posts</p>
