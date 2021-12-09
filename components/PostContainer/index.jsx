@@ -14,7 +14,7 @@ function Posts({ title, city, price, imgURl, description, date }) {
       <div className="p-8 flex flex-col space-y-5">
         <div className="flex justify-between">
           <h2 className="card-title">
-            <a href="#">{title}</a>
+            <a>{title}</a>
           </h2>
           <p>{price}〒</p>
         </div>
