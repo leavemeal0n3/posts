@@ -8,6 +8,9 @@ module.exports = {
     maxWidth: {
       "9/12": "75%",
     },
+    minWidth: {
+      "3/4": "75%",
+    },
     extend: {},
   },
   variants: {
