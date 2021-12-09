@@ -28,6 +28,7 @@ const MainPage = () => {
         {posts.map((item) => {
           return (
             <PostContainer
+              key={item.id}
               title={item.title}
               city={item.city}
               price={item.price}
